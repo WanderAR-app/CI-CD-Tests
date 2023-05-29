@@ -13,7 +13,7 @@ afterAll(async () => {
 
 describe("Server.ts tests", () => {
     test("Server is working !", () => {
-        expect(2 + 3).toBe(4);
+        expect(2 + 2).toBe(4);
     });
 });
 
