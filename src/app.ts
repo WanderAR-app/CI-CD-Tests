@@ -43,3 +43,5 @@ app.use(cors());
 app.get('/', async (req, res) => {
     res.status(200).json({ "message": "Server is working !" })
 });
+
+export default app;
