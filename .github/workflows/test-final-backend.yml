@@ -21,8 +21,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Install dependencies
       run: npm install
-    - name: Temporary command
-      run: echo "Temporary command"
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
